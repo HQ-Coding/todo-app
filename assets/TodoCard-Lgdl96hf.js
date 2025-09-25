@@ -1,4 +1,4 @@
-import{r as l,j as e}from"./index-Ct5t2XWh.js";function I({uid:t,index:v,subtitle:x,text:b,date:m,time:g,isDone:D,handleEditTodo:j,handleDeleteTodo:y,handleMarkDone:N,removingTodos:C,addingTodos:w,completingTodos:n}){const[a,d]=l.useState(!1),[c,h]=l.useState(x),[i,p]=l.useState(b),[o,k]=l.useState(m),[r,f]=l.useState(g),[u,$]=l.useState(!1),S=()=>{a?(j(t,{subtitle:c,text:i,date:o,time:r}),d(!1)):d(!0)},V=()=>{h(x),p(b),k(m),f(g),d(!1)},E=s=>{N(s)};return e.jsx("li",{className:`todoCard
+import{r as l,j as e}from"./index-cFq-FM9q.js";function I({uid:t,index:v,subtitle:x,text:b,date:m,time:g,isDone:D,handleEditTodo:j,handleDeleteTodo:y,handleMarkDone:N,removingTodos:C,addingTodos:w,completingTodos:n}){const[a,d]=l.useState(!1),[c,h]=l.useState(x),[i,p]=l.useState(b),[o,k]=l.useState(m),[r,f]=l.useState(g),[u,$]=l.useState(!1),S=()=>{a?(j(t,{subtitle:c,text:i,date:o,time:r}),d(!1)):d(!0)},V=()=>{h(x),p(b),k(m),f(g),d(!1)},E=s=>{N(s)};return e.jsx("li",{className:`todoCard
       ${n.includes(t)?"completing":""} 
       ${C.includes(t)?"removing":""} 
       ${w.includes(t)?"adding":""}
