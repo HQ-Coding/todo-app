@@ -26,7 +26,7 @@ export default function HeroPickerModal({
         </div>
 
         {/* Hero grid */}
-        <ul className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full">
+        <ul className="grid grid-cols-3 md:grid-cols-5 gap-2 w-full">
           {heroes.map((hero) => (
             <li
               key={hero.id}
