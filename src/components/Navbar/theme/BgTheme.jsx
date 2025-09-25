@@ -3,7 +3,7 @@ import React from "react";
 export default function BgTheme({ appBg, changeBackground }) {
   return (
     <div className="list-background flex justify-between w-full p-2">
-      <ul className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-2 w-full">
+      <ul className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-2 w-full">
         {appBg.map((bg, index) => (
           <li
             key={index}

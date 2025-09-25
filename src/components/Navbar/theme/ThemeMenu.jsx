@@ -64,7 +64,7 @@ const handleImageChange = (e) => {
   return (
     <div
       style={{ backgroundColor: "var(--bg-color)" }}
-      className="w-full p-4 rounded-lg h-[70vh] overflow-y-scroll "
+      className="w-full p-4 rounded-lg h-[60vh] overflow-y-scroll "
     >
       <div className="flex flex-col justify-center items-center gap-4">
         <h2>

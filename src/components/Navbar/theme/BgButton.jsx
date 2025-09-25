@@ -18,7 +18,7 @@ export default function BgButton({ handleImageChange , bgError }) {
       </label>
     </div>
 
-<p className="text-red-500 text-sm">{bgError && bgError}</p>
+{/* <p className="text-red-500 text-sm">{bgError && bgError}</p> */}
     </div>
 
   );

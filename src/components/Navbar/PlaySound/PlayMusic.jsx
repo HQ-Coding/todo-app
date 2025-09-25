@@ -26,7 +26,7 @@ export default function PlayMusic({
   return (
     <div
       style={{ backgroundColor: "var(--bg-color)" }}
-      className="flex flex-col items-center justify-center p-5 rounded-lg   h-[70vh] overflow-y-scroll "
+      className="flex flex-col items-center justify-center p-5 rounded-lg   h-[60vh] overflow-y-scroll "
     >
       <h2 className="mt-5">
         <i className="fa-solid fa-headphones rainbow-animated"></i>Sound
