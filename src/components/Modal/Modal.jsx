@@ -33,11 +33,11 @@ export default function Modal({ modalToggle, setModalToggle, closeModal }) {
 
       <div className="relative z-50 mt-16">
         {/* Background Images */}
-        {/* <img
+        <img
           className="w-full h-100 absolute top-0 left-0 z-10"
           src={tourImages.compliteTop}
           alt="compliteTop"
-        /> */}
+        />
         {showComplite && (
           <>
             <img
