@@ -2,6 +2,7 @@ import BgTheme from "./BgTheme";
 import ColorTheme from "./ColorTheme";
 import BgButton from "./BgButton";
 import FontChange from "./FontChange";
+import { appBg } from "../../../data/appBg";
 
 export default function ThemeMenu({
   selectedTheme,
@@ -11,11 +12,6 @@ export default function ThemeMenu({
   changeFont,
   selectedFont,
 }) {
-  const totalImages = 12;
-  const appBg = Array.from(
-    { length: totalImages },
-    (_, i) => `/AppBG/bg${i + 1}.jpg`
-  );
   const themes = [
     "purpleTheme",
     "pinkTheme",

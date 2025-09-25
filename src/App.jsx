@@ -70,9 +70,9 @@ function App() {
   );
   // Hero
   const [isHeroMenuOpen, setIsHeroMenuOpen] = useState(false);
-  const [selectedHero, setSelectedHero] = useState(
-    "../../src/assets/HeroVideo/1.mp4"
-  );
+  const [selectedHero, setSelectedHero] = useState(() => {
+    return localStorage.getItem("customHero") || "./assets/HeroVideo/1.mp4";
+  });
 
   // ############################  FUNCTIONS  ############################
 
@@ -227,7 +227,7 @@ function App() {
       setTodosByDate(updatedTodosByDate);
       persistData(updatedTodosByDate, todosDoneByDate, updatedDeletedByDate);
       if (!soundMute) {
-        playSound("restore.mp3 ");
+        playSound("restore.mp3");
       }
       setRestoringTodos((prev) => prev.filter((id) => id !== uid));
     }, 600);
@@ -342,7 +342,7 @@ function App() {
 
     // هر بار فونت تغییر کنه روی body اعمال شه
     document.body.style.fontFamily = selectedFont;
-  }, [selectedBackground, selectedTheme, username, selectedFont , selectedHero]);
+  }, [selectedBackground, selectedTheme, username, selectedFont, selectedHero]);
 
   // ############################  RENDER APP  ############################
   return (

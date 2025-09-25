@@ -1,4 +1,11 @@
 import SoundItem from "./SoundItem";
+import Wind from "../../../assets/Audios/wind.mp3";
+import Rain from "../../../assets/Audios/rain.mp3";
+import River from "../../../assets/Audios/river.mp3";
+import Fire from "../../../assets/Audios/fire.mp3";
+import Coast from "../../../assets/Audios/coast.wav";
+import Forest from "../../../assets/Audios/forest.mp3";
+import Chimes from "../../../assets/Audios/chimes.mp3";
 
 export default function PlayMusic({
   sfxVolume,
@@ -7,13 +14,13 @@ export default function PlayMusic({
   setSoundMute,
 }) {
   const soundList = [
-    { name: "Wind", icon: "fa-wind", src: "/Audios/wind.mp3" },
-    { name: "Rain", icon: "fa-cloud-rain", src: "/Audios/rain.mp3" },
-    { name: "River", icon: "fa-water", src: "/Audios/river.mp3" },
-    { name: "Fire", icon: "fa-fire", src: "/Audios/fire.mp3" },
-    { name: "Beach", icon: "fa-umbrella-beach", src: "/Audios/coast.wav" },
-    { name: "Forest", icon: "fa-tree", src: "/Audios/forest.mp3" },
-    { name: "Bell", icon: "fa-bell", src: "/Audios/chimes.mp3" },
+    { name: "Wind", icon: "fa-wind", src: Wind },
+    { name: "Rain", icon: "fa-cloud-rain", src: Rain },
+    { name: "River", icon: "fa-water", src: River },
+    { name: "Fire", icon: "fa-fire", src: Fire },
+    { name: "Beach", icon: "fa-umbrella-beach", src: Coast },
+    { name: "Forest", icon: "fa-tree", src: Forest },
+    { name: "Bell", icon: "fa-bell", src: Chimes },
   ];
 
   return (
