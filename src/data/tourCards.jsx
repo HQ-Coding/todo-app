@@ -62,7 +62,7 @@ const tourCards = [
     title: "Hi, I'm Hadi",
     preView: tourImages.aboutMe,
     description:
-      "This is a preview of my ToDo List app. In the future, I’ll add smarter AI actions, Telegram AI companion features, neuroscience-based learning, and more social enhancements. Just the beginning—stay tuned!",
+      "This is a preview of my ToDo List app. In the future, I’ll add smarter AI actions, smooth animations, and Telegram AI companion features. This is just the beginning—stay tuned!",
     action: "Next",
   },
   {

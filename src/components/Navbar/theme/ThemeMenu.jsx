@@ -3,6 +3,7 @@ import ColorTheme from "./ColorTheme";
 import BgButton from "./BgButton";
 import FontChange from "./FontChange";
 import { appBg } from "../../../data/appBg";
+import { useState } from "react";
 
 export default function ThemeMenu({
   selectedTheme,
@@ -36,13 +37,26 @@ export default function ThemeMenu({
     return color;
   };
 
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onloadend = () => setSelectedBackground(reader.result);
-    reader.readAsDataURL(file);
+  const [ bgError , setBgError ] = useState("")
+
+const handleImageChange = (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const maxSize = 5 * 1024 * 1024; 
+  if (file.size > maxSize) {
+    alert("❌ File is too large! Please choose a file smaller than 5MB");
+    setBgError(" ❌ File is too large! Please choose a file smaller than 5MB")
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onloadend = () => {
+    setSelectedBackground(reader.result);
+    localStorage.setItem("customBackground", reader.result); 
   };
+  reader.readAsDataURL(file);
+};
 
   const changeTheme = (theme) => setSelectedTheme(theme);
   const changeBackground = (bg) => setSelectedBackground(bg);
@@ -71,7 +85,7 @@ export default function ThemeMenu({
         <p className="font-bold text-lg ">List Background</p>
         <BgTheme appBg={appBg} changeBackground={changeBackground} />
 
-        <BgButton handleImageChange={handleImageChange} />
+        <BgButton handleImageChange={handleImageChange} bgError={bgError} />
       </div>
     </div>
   );
