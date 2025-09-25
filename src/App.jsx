@@ -18,6 +18,9 @@ import useAI from "./hooks/useAI";
 import useSound from "./hooks/useSound";
 import TodoHistory from "./components/TodoHistory/TodoHistory";
 import useTodoHistory from "./hooks/useTodoHistory";
+// Default
+import bg1 from "./assets/AppBG/bg7.jpg";
+import defaultHero from "./assets/HeroVideo/1.mp4";
 
 // ############################ APP ############################
 function App() {
@@ -45,7 +48,9 @@ function App() {
   const [sfxVolume, setSfxVolume] = useState(1);
   const playSound = useSound(soundMute, sfxVolume); //hook playSound
   // Themes Background - Color - Font
-  const [selectedBackground, setSelectedBackground] = useState("");
+  const [selectedBackground, setSelectedBackground] = useState(() => {
+    return localStorage.getItem("customBackground") || bg1;
+  });
   const [selectedTheme, setSelectedTheme] = useState("");
   const [selectedFont, setSelectedFont] = useState(() => {
     return localStorage.getItem("customFont") || '"Inter", sans-serif';
@@ -71,7 +76,7 @@ function App() {
   // Hero
   const [isHeroMenuOpen, setIsHeroMenuOpen] = useState(false);
   const [selectedHero, setSelectedHero] = useState(() => {
-    return localStorage.getItem("customHero") || "./assets/HeroVideo/1.mp4";
+    return localStorage.getItem("customHero") || defaultHero;
   });
 
   // ############################  FUNCTIONS  ############################
