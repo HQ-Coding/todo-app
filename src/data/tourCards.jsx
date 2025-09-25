@@ -30,6 +30,13 @@ const tourCards = [
   },
   {
     id: 5,
+    title: "Avatar",
+    preView: tourImages.avatarPv,
+    description: "Choose your favorite avatar to personalize your app experience.",
+    action: "Next",
+  },
+  {
+    id: 6,
     title: "Your Reaction",
     preView: tourImages.contactUs,
     description: (
@@ -58,7 +65,7 @@ const tourCards = [
     action: "Next",
   },
   {
-    id: 6,
+    id: 7,
     title: "Hi, I'm Hadi",
     preView: tourImages.aboutMe,
     description:
@@ -66,7 +73,7 @@ const tourCards = [
     action: "Next",
   },
   {
-    id: 7,
+    id: 8,
     title: "Start Using App",
     preView: tourImages.logo,
     description: "You're ready to start! Enjoy your experience 😄",

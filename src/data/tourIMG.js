@@ -12,6 +12,7 @@ import Emoji03 from "../../src/assets/tour/Emoji-rainbow.gif";
 import AiPv from "../../src/assets/tour/PreView-Ai.gif";
 import SoundPv from "../../src/assets/tour/PreView-Sound.gif";
 import ThemePv from "../../src/assets/tour/PreView-Theme.gif";
+import AvatarPV from "../../src/assets/tour/PreView-Avatar.gif";
 
 import AboutMe from "../../src/assets/tour/AboutMe.png";
 import ContactUs from "../../src/assets/tour/ContactUs.gif";
@@ -27,6 +28,7 @@ const tourImages = {
   aiPv: AiPv,
   soundPv: SoundPv,
   themePv: ThemePv,
+  avatarPv: AvatarPV,
   aboutMe: AboutMe,
   contactUs: ContactUs,
 };
