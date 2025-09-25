@@ -1,7 +1,10 @@
 import React, { useState, Suspense, lazy } from "react";
 const CasualCard = React.lazy(() => import("./CasualCard.jsx"));
-const WelcomeCard = React.lazy(() => import("./WelcomeCard.jsx"));
-const Overlay = React.lazy(() => import("./Overlay.jsx"));
+// const WelcomeCard = React.lazy(() => import("./WelcomeCard.jsx"));
+// const Overlay = React.lazy(() => import("./Overlay.jsx"));
+
+import WelcomeCard from "./WelcomeCard.jsx";
+import Overlay from "./Overlay.jsx";
 
 import tourCards from "../../data/tourCards.jsx";
 import tourImages from "../../data/tourIMG.js";
@@ -61,13 +64,18 @@ export default function Modal({ modalToggle, setModalToggle, closeModal }) {
 
             {/* Modal body */}
             <div className="p-6 overflow-y-auto flex-1">
-              <Suspense fallback={<div>Loading...</div>}>
+              {/* <Suspense fallback={<div>Loading...</div>}>
                 {tourStep === 0 ? (
                   <WelcomeCard key={currentCard.id} card={currentCard} />
                 ) : (
                   <CasualCard key={currentCard.id} card={currentCard} />
                 )}
-              </Suspense>
+              </Suspense> */}
+              {tourStep === 0 ? (
+                <WelcomeCard key={currentCard.id} card={currentCard} />
+              ) : (
+                <CasualCard key={currentCard.id} card={currentCard} />
+              )}
             </div>
 
             {/* Modal footer */}
