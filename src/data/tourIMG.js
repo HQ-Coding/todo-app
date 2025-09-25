@@ -16,6 +16,7 @@ import AvatarPV from "../../src/assets/tour/PreView-Avatar.gif";
 
 import AboutMe from "../../src/assets/tour/AboutMe.png";
 import ContactUs from "../../src/assets/tour/ContactUs.gif";
+import ContactUsPNG from "../../src/assets/tour/ContactUs.png";
 
 const tourImages = {
   logo : logo,
@@ -31,6 +32,7 @@ const tourImages = {
   avatarPv: AvatarPV,
   aboutMe: AboutMe,
   contactUs: ContactUs,
+  ContactUsPNG : ContactUsPNG, 
 };
 
 export default tourImages;

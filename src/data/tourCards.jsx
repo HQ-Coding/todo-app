@@ -38,7 +38,7 @@ const tourCards = [
   {
     id: 6,
     title: "Your Reaction",
-    preView: tourImages.contactUs,
+    preView: tourImages.ContactUsPNG,
     description: (
       <div className="flex flex-col items-center gap-3">
         <p>We'd love to know what you think!</p>
