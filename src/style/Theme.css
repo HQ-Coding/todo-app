@@ -1,0 +1,234 @@
+/* ==========================
+   Default Blue Theme
+========================== */
+:root {
+   --primary-color: #2563eb;
+   --secondary-color: #60a5fa;
+   --bg-color: #eff6ff;
+   --card-bg-color: #ffffff;
+   --text-color: #1e3a8a;
+   --text-muted: #4b5563;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #f3f4f6;
+   --gray: #9ca3af;
+   --gray-dark: #4b5563;
+   --border-color: #d1d5db;
+}
+
+/* ==========================
+  Red Theme
+========================== */
+.redTheme {
+   --primary-color: #dc2626;
+   --secondary-color: #fca5a5;
+   --bg-color: #fff1f2;
+   --card-bg-color: #ffffff;
+   --text-color: #7f1d1d;
+   --text-muted: #f87171;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #fef2f2;
+   --gray: #fca5a5;
+   --gray-dark: #7f1d1d;
+   --border-color: #fca5a5;
+}
+
+/* ==========================
+  Yellow Theme
+========================== */
+.yellowTheme {
+   --primary-color: #ca8a04;
+   --secondary-color: #fde68a;
+   --bg-color: #fefce8;
+   --card-bg-color: #ffffff;
+   --text-color: #713f12;
+   --text-muted: #f59e0b;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #fef9c3;
+   --gray: #fcd34d;
+   --gray-dark: #713f12;
+   --border-color: #fcd34d;
+}
+
+/* ==========================
+  Green / Forest Theme
+========================== */
+.greenTheme {
+   --primary-color: #22c55e;
+   --secondary-color: #a7f3d0;
+   --bg-color: #dcfce7;
+   --card-bg-color: #ffffff;
+   --text-color: #065f46;
+   --text-muted: #34d399;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #d1fae5;
+   --gray: #34d399;
+   --gray-dark: #065f46;
+   --border-color: #34d399;
+}
+
+/* ==========================
+  Neutral Theme
+========================== */
+.neutralTheme {
+   --primary-color: #6b7280;
+   --secondary-color: #9ca3af;
+   --bg-color: #f9fafb;
+   --card-bg-color: #ffffff;
+   --border-color: #d1d5db;
+   --text-color: #111827;
+   --text-muted: #6b7280;
+   --black: #000000;
+   --white: #ffffff;
+   --gray-light: #f3f4f6;
+   --gray: #9ca3af;
+   --gray-dark: #4b5563;
+}
+
+/* ==========================
+  Dark Tech Theme
+========================== */
+.darkTechTheme {
+   --primary-color: #0ea5e9;
+   --secondary-color: #22d3ee;
+   --bg-color: #1f2937;
+   --card-bg-color: #111827;
+   --border-color: #374151;
+   --text-color: #f9fafb;
+   --text-muted: #9ca3af;
+   --black: #000000;
+   --white: #ffffff;
+   --gray-light: #374151;
+   --gray: #6b7280;
+   --gray-dark: #111827;
+}
+
+/* ==========================
+  Pink Theme
+========================== */
+.pinkTheme {
+   --primary-color: #db2777;
+   --secondary-color: #f9a8d4;
+   --bg-color: #fdf2f8;
+   --card-bg-color: #fce7f3;
+   --text-color: #831843;
+   --text-muted: #f472b6;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #fce7f3;
+   --gray: #f9a8d4;
+   --gray-dark: #831843;
+   --border-color: #f472b6;
+}
+
+/* ==========================
+  Blue-Orange Theme
+========================== */
+.blueOrangeTheme {
+   --primary-color: #2563eb;
+   --secondary-color: #f97316;
+   --bg-color: #eff6ff;
+   --card-bg-color: #ffedd5;
+   --text-color: #1e3a8a;
+   --text-muted: #f97316;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #dbeafe;
+   --gray: #93c5fd;
+   --gray-dark: #1e3a8a;
+   --border-color: #f97316;
+}
+
+/* ==========================
+  Purple Theme
+========================== */
+.purpleTheme {
+   --primary-color: #7c3aed;
+   --secondary-color: #c4b5fd;
+   --bg-color: #f5f3ff;
+   --card-bg-color: #ede9fe;
+   --text-color: #4c1d95;
+   --text-muted: #a78bfa;
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #ede9fe;
+   --gray: #c4b5fd;
+   --gray-dark: #4c1d95;
+   --border-color: #a78bfa;
+}
+
+
+/* ==========================
+   Cream Theme (کرم)
+========================== */
+.creamTheme {
+   --primary-color: #d6c6b8;        /* Soft warm beige */
+   --secondary-color: #f5e8dc;      /* Lighter cream accent */
+   --bg-color: #fffaf5;             /* Overall background */
+   --card-bg-color: #fff5eb;        /* Card background */
+   --text-color: #5c4a3c;           /* Darker brown for text */
+   --text-muted: #a8978d;           /* Muted brown/gray */
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #f5f0eb;           /* Light gray/cream variant */
+   --gray: #d6c6b8;                 /* Base grayish cream */
+   --gray-dark: #5c4a3c;            /* Darker accent */
+   --border-color: #d6c6b8;         /* Soft border matching primary */
+}
+
+/* ==========================
+   Orange Theme
+========================== */
+.orangeTheme {
+   --primary-color: #f97316;        /* Vibrant orange */
+   --secondary-color: #fdba74;      /* Soft light orange */
+   --bg-color: #fff7ed;             /* Light warm background */
+   --card-bg-color: #ffedd5;        /* Soft card background */
+   --text-color: #7c2d12;           /* Dark burnt orange/brown */
+   --text-muted: #fb923c;           /* Muted medium orange */
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #ffedd5;           /* Light orange-gray */
+   --gray: #fdba74;                 /* Mid orange tone */
+   --gray-dark: #7c2d12;            /* Dark accent */
+   --border-color: #fb923c;         /* Border in muted orange */
+}
+
+/* ==========================
+   Dark Green Theme
+========================== */
+.darkGreenTheme {
+   --primary-color: #15803d;       /* Deep green */
+   --secondary-color: #16a34a;     /* Bright green accent */
+   --bg-color: #052e16;            /* Very dark green background */
+   --card-bg-color: #064e3b;       /* Dark green card */
+   --text-color: #ecfdf5;          /* Light mint text */
+   --text-muted: #6ee7b7;          /* Muted green text */
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #064e3b;          /* Dark muted green */
+   --gray: #10b981;                /* Emerald */
+   --gray-dark: #022c22;           /* Almost black green */
+   --border-color: #16a34a;        /* Green border */
+}
+
+/* ==========================
+   Navy Dark Blue Theme
+========================== */
+.DarkBlueTheme {
+   --primary-color: #0b3d91;       /* Classic Navy Blue */
+   --secondary-color: #1e40af;     /* Brighter Accent Blue */
+   --bg-color: #0a1f44;            /* Very Dark Navy Background */
+   --card-bg-color: #12275e;       /* Slightly Lighter Navy for Cards */
+   --text-color: #e0e7ff;          /* Light Soft Text */
+   --text-muted: #93c5fd;          /* Muted Blue Text */
+   --white: #ffffff;
+   --black: #000000;
+   --gray-light: #1e293b;          /* Dark Slate */
+   --gray: #334155;                /* Mid Slate */
+   --gray-dark: #0a1f44;           /* Darkest Navy */
+   --border-color: #1e40af;        /* Accent Blue Border */
+ }
