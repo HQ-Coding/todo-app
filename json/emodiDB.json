@@ -1,0 +1,47 @@
+{
+    "happy": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f604/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f601/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f606/512.gif"
+    ],
+    "tired": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f62a/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f971/512.gif"
+    ],
+    "relaxed": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f60c/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f92a/512.gif"
+    ],
+    "motivate": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif"
+    ],
+    "gym": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3cb/512.gif"
+    ],
+    "homework": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4da/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4d6/512.gif"
+    ],
+    "cook": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f373/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f958/512.gif"
+    ],
+    "walk": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6b6/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c3/512.gif"
+    ],
+    "shopping": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6cd/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d2/512.gif"
+    ],
+    "cleaning": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9f9/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9fc/512.gif"
+    ],
+    "meeting": [
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f91d/512.gif",
+      "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.gif"
+    ]
+  }
