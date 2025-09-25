@@ -1,0 +1,1 @@
+import{j as e}from"./index-DrbtKyR6.js";function l({setIsHeroMenuOpen:r,selectedHero:o}){return e.jsx("div",{onClick:()=>r(!0),className:"hero w-[100px] h-[100px] md:w-48 md:h-48 rounded-full overflow-hidden border-4 cursor-pointer",children:e.jsx("video",{src:o,className:"w-full h-full object-cover",autoPlay:!0,loop:!0,muted:!0,playsInline:!0})})}export{l as default};
