@@ -47,24 +47,24 @@ export default function TodoHistory({ history, removeHistoryFromData }) {
           onClick={() => removeHistoryFromData()}
           className="text-lg font-bold text-white mt-2 bg-gray-800 p-2 rounded-md w-full"
         >
-          پاک کردن تاریخچه
+          Clear History
         </button>
         <span className="text-lg text-center font-bold text-white mt-2 bg-gray-800 p-2 rounded-md w-full">
-          درصد موفقیت: {winRatePercent.toFixed(1)}%
+          Win Rate : {winRatePercent.toFixed(1)}%
         </span>
       </div>
 
       {Object.keys(history).map((dateKey) => (
         <div key={dateKey}>
           <h2 className="text-lg font-bold text-gray-700 mt-2 bg-white p-2 rounded-md">
-            تاریخ: {dateKey}
+            Date : {dateKey}
           </h2>
 
           <ul className="space-y-1">
             {history[dateKey].map((todo, index) => (
               <Suspense
                 key={todo.id || index}
-                fallback={<div>در حال بارگذاری...</div>}
+                fallback={<div>Loading Data ... </div>}
               >
                 <TodoHistoryCard todo={todo} index={index} />
               </Suspense>

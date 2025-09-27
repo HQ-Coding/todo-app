@@ -27,25 +27,22 @@ export default function useTodoHistory(
     Object.keys(newTodosByDate).forEach((dateKey) => {
       const target = new Date(dateKey);
       target.setHours(0, 0, 0, 0);
-
-
+    
       if (target.getTime() < today.getTime()) {
         if (!addToHistory[dateKey]) addToHistory[dateKey] = [];
-
-
+    
         addToHistory[dateKey] = [
           ...(addToHistory[dateKey] || []),
-          ...newTodosByDate[dateKey],
-          ...(newTodosDoneByDate[dateKey] || []),
+          ...(Array.isArray(newTodosByDate[dateKey]) ? newTodosByDate[dateKey] : []),
+          ...(Array.isArray(newTodosDoneByDate[dateKey]) ? newTodosDoneByDate[dateKey] : []),
         ];
-
-        // ❌ پاک کردن روز گذشته از state اصلی
+    
+        // ❌ حذف از state اصلی
         delete newTodosByDate[dateKey];
         delete newTodosDoneByDate[dateKey];
-        delete newTodosDeletedByDate[dateKey]; 
+        delete newTodosDeletedByDate[dateKey];
       }
     });
-
 
     setTodosByDate(newTodosByDate);
     setTodosDoneByDate(newTodosDoneByDate);
